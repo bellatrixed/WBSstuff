@@ -1,0 +1,219 @@
+    h1 {
+      font-family: didot;
+      color: #088e8c;
+    }
+
+    h2 {
+    font-family: didot;
+    color: rgba(2, 66, 116, 1);
+    }
+
+    h3 {
+      font-family: didot;
+      color: white;
+      font-size: 1.8em;
+    }
+
+
+    body {
+      font-family: Verdana;
+      color: rgba(47, 53, 70, 1);
+      font-size: 1em;
+      margin: 0;
+    }
+
+
+    header {
+      display:flex;
+      width: 100%;
+      height: 11vh;
+      top: 0;
+      bottom: 1vh;
+      position: fixed;
+      grid-row: 1;
+      grid-column: 0/-1;
+      background: rgb(2,157,198);
+      background: linear-gradient(187deg, rgba(2,157,198,1) 33%, rgba(6,171,169,1) 39%, rgba(8,17,101,0.5718662464985995) 60%);
+
+    }
+
+    #MainLogo {
+      height: 95%;
+      padding: 1.5vh;
+      margin: 1vh;
+      padding-right: 15vw;
+      font-size: 2em;
+      color: white;
+      justify-self: left;
+      grid-column: 1 / span 2;
+      font-family: Didot;
+    }
+
+    #nav {
+       display: flex;
+      font-family: Chancery;
+      align-self: center;
+      font-size: 1.5em;
+      justify-content: flex-end;
+    }
+
+     .NavOptions {
+      color: white;
+      padding-left: 2vw;
+    }
+         a {
+      color: white;
+      transition: 0.3s;
+      padding-left: 2vw;
+      text-decoration: none;
+    }
+     a:visited {
+      color: white;
+      transition: 0.3s;
+      padding-left: 2vw;
+      text-decoration: none;
+    }
+
+    a:hover {
+    color: rgba(242, 243, 243, 0.89);
+    transition: 0.3s;
+    }
+
+
+   .Title {
+      margin-left: 50%;
+      font-size: 6em;
+      font-family: didot;
+      color: #c90058;
+      transition: .4s;
+    }
+
+   .Title:hover {
+  color: rgba(246, 90, 90, 1);
+  transition: .4s;
+}
+
+
+
+    .sectionwrapper{
+    background-color: #081165;
+    padding-top: 15vh;
+    }
+
+  #openingsection {
+  height: 26vh;
+  width: 100%;
+    }
+
+
+    #main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2vw;
+
+    }
+
+.textonleft {
+    grid-column: 1/ span 4;
+}
+
+    .placeholderright {
+    grid-column: 5 / span 3;
+    background-color: #e6e5e5;
+    height: 100%;
+    width: 100%;
+    }
+
+    .placeholderleft {
+    grid-column: 1 / span 3;
+    background-color: #e6e5e5;
+    height: 100%;
+    width: auto;
+    margin-left: 2.5vw;
+    }
+
+.leftpullquote {
+    grid-column: 1/ span 3;
+    margin-left: 3.5vw;
+    background: rgb(201,0,88);
+    background: linear-gradient(182deg, rgba(201,0,88,0.6558998599439776) 11%, rgba(121,10,189,0.7567401960784313) 55%, rgba(29,24,103,0.865983893557423) 86%);
+    padding: 4vw;
+    padding-top: 1vw;
+    color: white;
+    border-style: solid;
+    border-weight: 1em;
+    border-color: rgba(2, 66, 116, 1);
+}
+
+.titleright {
+    grid-column: 4/ span 3;
+    margin-left: 15vw;
+    padding-top: 3.5vw;
+    font-size: 6em;
+  font-family: didot;
+  color: rgba(246, 90, 90, 1);
+    transition: .4s;
+}
+
+.titleright:hover{
+  color: #c90058;
+  transition: .4s;
+}
+
+
+.textonright {
+    grid-column: 4/ span 8;
+}
+
+.fullspantext {
+    grid-column: 1/span 7;
+    margin: 10vw;
+}
+
+#row1{
+grid-row: 1;
+grid-column: 1 / span 8;
+
+padding-left: 12vw;
+padding-right: 10vw;
+margin-top: 2.5vw;
+margin-bottom: 2.5vw;
+}
+
+.row2{grid-row: 2;
+margin-left: 2.5vw;
+}
+
+.whitebackground {
+background-color: white;
+padding: 2vw;
+}
+
+.row3{ grid-row: 3;
+ margin-right: 2.5vw;}
+
+.row4{ grid-row: 4; }
+
+.row5left {
+grid-row: 5;
+grid-column: 1/span 4;
+margin-left: 2.5vw;
+margin-right: 10vw;
+}
+
+.row5right{
+grid-row: 5;
+grid-column: 4/span 5;
+margin-right: 2vw;
+margin-left: 5vw;
+}
+
+
+.row6{
+grid-row: 6;
+grid-column: 1 / span 8;
+margin-left: 2.5vw;
+margin-right: 5vw;
+padding-bottom: 5vw;
+}
+
