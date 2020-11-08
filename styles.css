@@ -109,7 +109,7 @@
     }
 
     #heroimage{
-        background-image: url("/BlogPortrait.jpg");
+        background-image: url("BlogPortrait.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
@@ -130,7 +130,7 @@
 
     .oberonphoto {
     grid-column: 5 / span 3;
-    background-image: url("/OberonBlog.jpg");
+    background-image: url("OberonBlog.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -139,7 +139,7 @@
 
     .muldevalley {
     grid-column: 1 / span 3;
-    background-image: url("/GRMBlog2.jpg");
+    background-image: url("GRMBlog2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
